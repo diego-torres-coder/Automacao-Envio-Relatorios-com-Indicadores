@@ -19,7 +19,7 @@ A fim de automatizar esse processo, vamos utilizar o **pyautogui**, uma bibliote
 Caso você deseje reproduzir este projeto, crie uma pasta para seu projeto e um ambiente virtual para ele. Para criar o ambiente virtual, navegue até a pasta de seu projeto e digite o seguinte comando no terminal:
 
 ```bash
-conda -n myenv python=3.10
+conda create -n myenv python=3.10
 ```
 
 Em seguida, ative o ambiente:
@@ -31,7 +31,7 @@ conda activate myenv
 Com o ambiente ativo, instale as dependências do projeto:
 
 ```bash
-pip3 install pandas openpyxl numpy jupyter
+pip3 install pandas openpyxl numpy jupyterlab
 ```
 
 Depois, instale o **pyautogui**:
@@ -40,10 +40,10 @@ Depois, instale o **pyautogui**:
 pip3 install pyautogui
 ```
 
-Execute o Jupyter Notebook:
+Execute o Jupyter Lab:
 
 ```bash
-jupyter notebook
+jupyter-lab
 ```
 
 Abra o arquivo principal deste projeto e execute todas as células.
